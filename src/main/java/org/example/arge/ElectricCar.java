@@ -14,10 +14,6 @@ public class ElectricCar extends CarSkeleton{
         this.avgKmPerCharge = avgKmPerLitre;
         this.batterySize = batterySize;
     }
-    @Override
-    public String carDescription() {
-        return this.getDescription() +" "+ this.avgKmPerCharge +" "+ this.batterySize;
-    }
 
     public double getAvgKmPerCharge() {
         return avgKmPerCharge;
